@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+article {
+    margin: 0% 10%;
+    background-color: darkgray;
+}
+h1 {
+    font-family: courier;
+    font-size: 200%;
+    text-align: center; 
+    font-weight: 100;
+}
+.text {
+    margin: 2% 10%;
+    font-size: 18px;
+}
+#img1, #img2 {
+    width: 49%;
+    display: inline-block;
+    margin: 4px
+
+        
+}
+#img3 {
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+        
+}
+#img4, #img5 {
+    width: 49%;
+    display: inline-block;
+    margin: 4px;
+}
+#citat {
+    border: 5px solid black;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+        
+}
+

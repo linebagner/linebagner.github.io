@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+}
+article {
+    margin: 0% 10%;
+    background-color: darkgrey;
+}
+.text {
+    margin:  2% 10%;
+    font-size: 18px;
+}
+h1 {
+    font-size: 200%;
+    text-align: center;
+    font-family: courier;
+    font-weight: 100;
+}
+#img1, #img2 {
+    width: 49%;
+    display: inline;
+    margin: 4px;
+}
+#img1, #img3 {
+    padding-right: 5px;
+}
+#img2, #img4 {
+    padding-left: 5px;
+}
+#citat {
+    border: 5px solid black;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#img3, #img4 {
+    width: 49%;
+    display: inline-block;
+    margin: 4px;
+}

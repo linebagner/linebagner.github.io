@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+}
+article {
+    margin: 0% 10%;
+    background-color: darkgrey;
+}
+.text {
+    margin:  2% 10%;
+    font-size: 18px;
+}
+h1 {
+    font-size: 200%;
+    text-align: center;
+    font-family: courier;
+    font-weight: 100;
+}
+.first p, .first #img1 {
+    display: inline-block;
+    width: 49%
+}
+#img2, #img3 {
+    width: 49%;
+    display: inline-block
+}
+#img4, #img5 {
+    width: 49%;
+    display: inline-block;
+}
+img {
+    padding: 25px;
+}
